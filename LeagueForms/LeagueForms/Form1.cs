@@ -29,7 +29,7 @@ namespace LeagueForms
 
         public async void startButton_ClickAsync(object sender, EventArgs e)
         {
-            var riotApi = RiotApi.NewInstance("RGAPI-92619da3-4664-432d-ad63-68ee984d8a43");
+            var riotApi = RiotApi.NewInstance(apiKey.Text);
             var summonerNameQuery = usernameText.Text;
             var summonerData = await riotApi.SummonerV4.GetBySummonerNameAsync(MingweiSamuel.Camille.Enums.Region.NA, summonerNameQuery);
             if (null == summonerData)
@@ -73,6 +73,8 @@ namespace LeagueForms
 
                 sum += cspm;
                 textBox2.Text = (sum/matchlist.EndIndex).ToString("0.00");
+
+                
             }
         }
     }
