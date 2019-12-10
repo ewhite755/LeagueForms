@@ -32,8 +32,9 @@
             this.apiKey = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.usernameText = new System.Windows.Forms.TextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.startButton = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -50,7 +51,7 @@
             this.apiKey.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.apiKey.Location = new System.Drawing.Point(16, 30);
             this.apiKey.Name = "apiKey";
-            this.apiKey.Size = new System.Drawing.Size(387, 20);
+            this.apiKey.Size = new System.Drawing.Size(521, 20);
             this.apiKey.TabIndex = 1;
             this.apiKey.TextChanged += new System.EventHandler(this.apiKey_TextChanged);
             // 
@@ -68,21 +69,12 @@
             this.usernameText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.usernameText.Location = new System.Drawing.Point(16, 86);
             this.usernameText.Name = "usernameText";
-            this.usernameText.Size = new System.Drawing.Size(387, 20);
+            this.usernameText.Size = new System.Drawing.Size(521, 20);
             this.usernameText.TabIndex = 3;
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(16, 153);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(387, 251);
-            this.listBox1.TabIndex = 4;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.usernameText.Text = "reg454";
             // 
             // startButton
             // 
-            this.startButton.Enabled = false;
             this.startButton.Location = new System.Drawing.Point(16, 112);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(75, 23);
@@ -91,13 +83,32 @@
             this.startButton.UseVisualStyleBackColor = true;
             this.startButton.Click += new System.EventHandler(this.startButton_ClickAsync);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(16, 153);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox1.Size = new System.Drawing.Size(387, 256);
+            this.textBox1.TabIndex = 6;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(409, 153);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(128, 256);
+            this.textBox2.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(415, 421);
+            this.ClientSize = new System.Drawing.Size(549, 421);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.startButton);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.usernameText);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.apiKey);
@@ -115,8 +126,9 @@
         private System.Windows.Forms.TextBox apiKey;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox usernameText;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button startButton;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 
