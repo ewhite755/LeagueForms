@@ -72,7 +72,7 @@ namespace LeagueForms
                     i + 1, win ? "Win" : "Loss", champ.Name(), gametime, k, d, a, kda, c, cspm);
 
                 sum += cspm;
-            textBox2.Text = (sum/10).ToString();
+                textBox2.Text = (sum/matchlist.EndIndex).ToString("0.00");
             }
         }
     }
