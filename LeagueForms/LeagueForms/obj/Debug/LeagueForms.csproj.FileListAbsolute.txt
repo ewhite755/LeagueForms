@@ -1,0 +1,9 @@
+C:\Users\ewhit\OneDrive\Documents\GitHub\LeagueForms\LeagueForms\LeagueForms\bin\Debug\LeagueForms.exe.config
+C:\Users\ewhit\OneDrive\Documents\GitHub\LeagueForms\LeagueForms\LeagueForms\bin\Debug\LeagueForms.exe
+C:\Users\ewhit\OneDrive\Documents\GitHub\LeagueForms\LeagueForms\LeagueForms\bin\Debug\LeagueForms.pdb
+C:\Users\ewhit\OneDrive\Documents\GitHub\LeagueForms\LeagueForms\LeagueForms\obj\Debug\LeagueForms.csprojAssemblyReference.cache
+C:\Users\ewhit\OneDrive\Documents\GitHub\LeagueForms\LeagueForms\LeagueForms\obj\Debug\LeagueForms.Form1.resources
+C:\Users\ewhit\OneDrive\Documents\GitHub\LeagueForms\LeagueForms\LeagueForms\obj\Debug\LeagueForms.Properties.Resources.resources
+C:\Users\ewhit\OneDrive\Documents\GitHub\LeagueForms\LeagueForms\LeagueForms\obj\Debug\LeagueForms.csproj.GenerateResource.cache
+C:\Users\ewhit\OneDrive\Documents\GitHub\LeagueForms\LeagueForms\LeagueForms\obj\Debug\LeagueForms.exe
+C:\Users\ewhit\OneDrive\Documents\GitHub\LeagueForms\LeagueForms\LeagueForms\obj\Debug\LeagueForms.pdb
